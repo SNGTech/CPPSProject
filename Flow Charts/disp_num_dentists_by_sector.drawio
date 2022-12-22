@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T12:01:23.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="uwAKDsUf8OwBVOQ7odoT" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T14:49:35.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="U2vg0oz3g5d1CiwGbION" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1002" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,9 +87,9 @@
         <mxCell id="VzCw9Sapz8xhDQ7BDSVr-31" value="for each i in data.sector_indices[0]" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="69.37" y="440" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VzCw9Sapz8xhDQ7BDSVr-39" target="VzCw9Sapz8xhDQ7BDSVr-72" edge="1">
+        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VzCw9Sapz8xhDQ7BDSVr-39" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="640" as="targetPoint" />
+            <mxPoint x="104.36999999999989" y="640" as="targetPoint" />
             <Array as="points">
               <mxPoint x="80" y="560" />
               <mxPoint x="80" y="640" />
@@ -125,17 +125,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-64" value="Add num_dentists[i] to list comprehension list" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-64" value="Add num_dentists[i] to temp_list" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="240" y="530" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VzCw9Sapz8xhDQ7BDSVr-71" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="75" y="530" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VzCw9Sapz8xhDQ7BDSVr-72" target="VzCw9Sapz8xhDQ7BDSVr-79" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-72" value="Assign list comprehension list to num_dentists_private" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="104.37" y="610" width="165.63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VzCw9Sapz8xhDQ7BDSVr-76" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;num_dentists_private = sum([num_dentists[i] for i in data.sector_indices[0]])&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="64" y="674" width="346" height="30" as="geometry" />
@@ -144,13 +138,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="730" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="490" y="640" />
-              <mxPoint x="490" y="750" />
+              <mxPoint x="440" y="640" />
+              <mxPoint x="440" y="750" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-79" value="num_dentists_private = sum(num_dentists_private)" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="310" y="610" width="160" height="60" as="geometry" />
+        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-79" value="num_dentists_private = sum(temp_list)" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="104.37" y="610" width="215.63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VzCw9Sapz8xhDQ7BDSVr-82" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=none;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="60" y="720" width="470" height="250" as="geometry" />
@@ -160,9 +154,9 @@
             <mxPoint x="164.3699999999999" y="770" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VzCw9Sapz8xhDQ7BDSVr-85" target="VzCw9Sapz8xhDQ7BDSVr-92" edge="1">
+        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VzCw9Sapz8xhDQ7BDSVr-85" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="930" as="targetPoint" />
+            <mxPoint x="104.36999999999989" y="930" as="targetPoint" />
             <Array as="points">
               <mxPoint x="80" y="850" />
               <mxPoint x="80" y="930" />
@@ -189,17 +183,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-89" value="Add num_dentists[i] to list comprehension list" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-89" value="Add num_dentists[i] to temp_list" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="240" y="820" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VzCw9Sapz8xhDQ7BDSVr-90" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="75" y="820" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VzCw9Sapz8xhDQ7BDSVr-92" target="VzCw9Sapz8xhDQ7BDSVr-94" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-92" value="Assign list comprehension list to num_dentists_public" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="104.37" y="900" width="165.63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VzCw9Sapz8xhDQ7BDSVr-93" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;num_dentists_public = sum([num_dentists[i] for i in data.sector_indices[1]])&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="64" y="964" width="346" height="30" as="geometry" />
@@ -207,10 +195,15 @@
         <mxCell id="VzCw9Sapz8xhDQ7BDSVr-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=10;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VzCw9Sapz8xhDQ7BDSVr-94" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="164" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="930" />
+              <mxPoint x="440" y="1000" />
+              <mxPoint x="164" y="1000" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-94" value="num_dentists_public = sum(num_dentists_public)" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="310" y="900" width="160" height="60" as="geometry" />
+        <mxCell id="VzCw9Sapz8xhDQ7BDSVr-94" value="num_dentists_public = sum(temp_list)" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="104.37" y="900" width="205.63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VzCw9Sapz8xhDQ7BDSVr-95" value="for each i in data.sector_indices[1]" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="69.37" y="730" width="190" height="40" as="geometry" />
