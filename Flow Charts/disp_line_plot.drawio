@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T13:39:17.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="5UJPyPwcl0u9m-YXPW27" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T13:56:26.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="ywJM2nRg4H-SvTdqd9Qj" type="github">
   <diagram id="6FLrMFgQbfJtDDahF8CN" name="Page-1">
     <mxGraphModel dx="1002" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="5yiq2FlFYGB0BDq1m2_S-3" value="Initialise col_index,&amp;nbsp;total_dentists_by_role_yearly to []" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="85" y="160" width="286.25" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5yiq2FlFYGB0BDq1m2_S-4" value="import data&lt;br&gt;import numpy as np&lt;br&gt;import matplotlib.pyplot as plt" style="rounded=0;whiteSpace=wrap;html=1;glass=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-4" value="import data&lt;br&gt;import matplotlib.pyplot as plt" style="rounded=0;whiteSpace=wrap;html=1;glass=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="268.12" y="90" width="181.88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5yiq2FlFYGB0BDq1m2_S-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="5yiq2FlFYGB0BDq1m2_S-4">
@@ -212,6 +212,81 @@
         </mxCell>
         <mxCell id="5yiq2FlFYGB0BDq1m2_S-88" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="689.97" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5yiq2FlFYGB0BDq1m2_S-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="963" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-89" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="930" width="66" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5yiq2FlFYGB0BDq1m2_S-92" target="5yiq2FlFYGB0BDq1m2_S-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-92" value="plt.rcParams[&#39;figure.figsize&#39;] = (11, 7)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="863" y="110" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-93" value="plt.plot(data.years, total_dentists_by_role_yearly)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;size=0.050445103857566766;" vertex="1" parent="1">
+          <mxGeometry x="814.5" y="210" width="297" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="5yiq2FlFYGB0BDq1m2_S-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="963" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-96" value="plt.xticks(fontsize=12)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;size=0.06191950464396285;" vertex="1" parent="1">
+          <mxGeometry x="882.25" y="310" width="161.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="963" y="370" as="sourcePoint" />
+            <mxPoint x="963" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="5yiq2FlFYGB0BDq1m2_S-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="963" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-100" value="plt.xlabel(&quot;Years&quot;, fontsize=15)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;size=0.05221932114882506;" vertex="1" parent="1">
+          <mxGeometry x="867.25" y="510" width="191.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="963" y="570" as="sourcePoint" />
+            <mxPoint x="963" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-103" value="plt.yticks(fontsize=12)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;size=0.06191950464396285;" vertex="1" parent="1">
+          <mxGeometry x="882.25" y="410" width="161.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5yiq2FlFYGB0BDq1m2_S-104" target="5yiq2FlFYGB0BDq1m2_S-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-104" value="plt.ylabel(&quot;Number of Active Dentists&quot;, fontsize=15)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;size=0.051356862745097695;" vertex="1" parent="1">
+          <mxGeometry x="803.63" y="610" width="318.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5yiq2FlFYGB0BDq1m2_S-105" target="5yiq2FlFYGB0BDq1m2_S-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-105" value="plt.title(f&quot;Total {dentist_role.title()} vs Year&quot;, fontsize=15)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;size=0.051356862745097695;" vertex="1" parent="1">
+          <mxGeometry x="796.82" y="709.97" width="332.37" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5yiq2FlFYGB0BDq1m2_S-107" target="5yiq2FlFYGB0BDq1m2_S-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-107" value="plt.grid()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="903.01" y="814.96" width="120" height="45.04" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5yiq2FlFYGB0BDq1m2_S-109" target="5yiq2FlFYGB0BDq1m2_S-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-109" value="plt.show()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="903" y="900" width="120" height="45.04" as="geometry" />
+        </mxCell>
+        <mxCell id="5yiq2FlFYGB0BDq1m2_S-111" value="END&lt;br&gt;disp_line_plot(dentist_role: str)" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="873.95" y="990" width="178.12" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
