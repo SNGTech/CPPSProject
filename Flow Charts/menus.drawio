@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" modified="2022-12-23T02:42:09.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="s5KIlKwR0tNygVlZ4ISn" type="github">
+  <diagram id="lAaDq1u4fU7EG99VjuwV" name="Page-1">
+    <mxGraphModel dx="1242" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LtVqr1XpOHOEltWdgd7_-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtVqr1XpOHOEltWdgd7_-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215.10000000000002" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtVqr1XpOHOEltWdgd7_-2" value="START" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtVqr1XpOHOEltWdgd7_-3" value="&lt;div&gt;import option_functions as options&lt;/div&gt;&lt;div&gt;from data import year_range, years&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="255.12" y="70" width="194.88" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtVqr1XpOHOEltWdgd7_-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LtVqr1XpOHOEltWdgd7_-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="100" as="sourcePoint" />
+            <mxPoint x="407.12" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtVqr1XpOHOEltWdgd7_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtVqr1XpOHOEltWdgd7_-5" target="LtVqr1XpOHOEltWdgd7_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtVqr1XpOHOEltWdgd7_-5" value="Initialise sep_len = 80,&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sep_header = &quot;=&quot; * sep_len,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sep = &quot;-&quot; * sep_len&lt;/span&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="140" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtVqr1XpOHOEltWdgd7_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtVqr1XpOHOEltWdgd7_-6" target="LtVqr1XpOHOEltWdgd7_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtVqr1XpOHOEltWdgd7_-6" value="Initialise sector_dict of type dictionary -&amp;gt; &lt;br&gt;keys: submenu options&lt;br&gt;values: tuple where first index is submenu option description, second index is str to pass as parameter into options function" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="240" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtVqr1XpOHOEltWdgd7_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtVqr1XpOHOEltWdgd7_-8" target="LtVqr1XpOHOEltWdgd7_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtVqr1XpOHOEltWdgd7_-8" value="Initialise dentist_roles_dict of type dictionary -&amp;gt; &lt;br&gt;keys: submenu options&lt;br&gt;values: tuple where first index is submenu option description, second index is str to pass as parameter into options function" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="340" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtVqr1XpOHOEltWdgd7_-10" value="END" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="440" width="90" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

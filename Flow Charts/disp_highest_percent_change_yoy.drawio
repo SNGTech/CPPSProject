@@ -1,0 +1,119 @@
+<mxfile host="app.diagrams.net" modified="2022-12-22T12:41:32.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="Vy5cJtKblLhsiCrR4iWh" type="github">
+  <diagram id="CQqU0XUcqY9AJ5NWm8UI" name="Page-1">
+    <mxGraphModel dx="1575" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-1" target="PUVMLBjFDMw-iM7QUpgO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-1" value="START&lt;br&gt;disp_highest_percent_change_yoy(sector: str)" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="83.75" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-3" target="PUVMLBjFDMw-iM7QUpgO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-3" value="Initialise sum_dentists_yearly_by_sector,&amp;nbsp;percent_change_num_dentists_yearly to [], original, new, percent_change, highest_percentage_change, max_year to 0" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-14.37" y="140" width="456.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-4" value="import data" style="rounded=0;whiteSpace=wrap;html=1;glass=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="253.75" y="90" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PUVMLBjFDMw-iM7QUpgO-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="213.75" y="110" as="sourcePoint" />
+            <mxPoint x="405.75" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-7" target="PUVMLBjFDMw-iM7QUpgO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-7" value="sum_dentists_yearly_by_sector = data.get_sum_yearly_by_sector(sector)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="13.75" y="230" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-10" target="PUVMLBjFDMw-iM7QUpgO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-10" value="for each i in range(len(sum_dentists_yearly_by_sector) - 1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="86.25" y="330" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-11" target="PUVMLBjFDMw-iM7QUpgO-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="549.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="450" />
+              <mxPoint x="40" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-11" value="i in&lt;br&gt;sequence&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="173.75" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="253.70652173913038" y="450.0434782608695" as="sourcePoint" />
+            <mxPoint x="289.4465760869565" y="450.0434782608695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-13" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="236.25" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-14" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="113.75" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-16" target="PUVMLBjFDMw-iM7QUpgO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-16" value="original, new = sum_dentists_yearly_by_sector[i], sum_dentists_yearly_by_sector[i + 1]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289.75" y="420" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="658.75" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-19" value="percent_change = data.calc_percent_change(original, new)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="543.75" y="420" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="213" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-23" value="percent_change_num_dentists_yearly.append(percent_change)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05087375677256886;" vertex="1" parent="1">
+          <mxGeometry x="467.19" y="520" width="383.13" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-26" target="PUVMLBjFDMw-iM7QUpgO-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-26" value="Display f&quot;For {sector} sector from {data.year_range[0]} to {data.year_range[1]}: \n&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="73.75" y="520" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-29" target="PUVMLBjFDMw-iM7QUpgO-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-29" value="highest_percent_change = max(percent_change_num_dentists_yearly)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20.629999999999995" y="620" width="386.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-31" target="PUVMLBjFDMw-iM7QUpgO-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-31" value="max_year = data.year_range[0] + percent_change_num_dentists_yearly.index(highest_percent_change) + 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12.03" y="720" width="403.44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PUVMLBjFDMw-iM7QUpgO-33" target="PUVMLBjFDMw-iM7QUpgO-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-33" value="Display highest_percent_change rounded to 2 decimal places, and display max_year" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="73.75" y="820" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUVMLBjFDMw-iM7QUpgO-35" value="END&lt;br&gt;disp_highest_percent_change_yoy(sector: str)" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="83.75" y="920" width="260" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
