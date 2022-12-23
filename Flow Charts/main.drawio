@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T03:15:29.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="SWFJli1lEZjyLQVnlib1" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-23T03:51:59.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="5CFlx9FwdWwouCK8p2bv" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1002" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="616" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,7 +13,7 @@
         <mxCell id="eagQtBBMsQWEA476CmqX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eagQtBBMsQWEA476CmqX-1" target="eagQtBBMsQWEA476CmqX-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eagQtBBMsQWEA476CmqX-1" value="Initialise main_menu_dict&amp;nbsp;of type dictionary -&amp;gt; &lt;br&gt;keys: menu options&lt;br&gt;values: tuple where first index is menu option description, second index is submenu function from menus module to execute" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="eagQtBBMsQWEA476CmqX-1" value="Initialise main_menu_dict&amp;nbsp;of type dictionary -&amp;gt; &lt;br&gt;keys: menu options&lt;br&gt;values: tuple where first index is menu option description, second index is function to execute" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="110" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eagQtBBMsQWEA476CmqX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eagQtBBMsQWEA476CmqX-3" target="eagQtBBMsQWEA476CmqX-5" edge="1">
