@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T05:53:20.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="560L15ykyXNcbmMV2E1w" type="github"><diagram id="SXAJlcKLMiAvzba7q12L">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-23T05:58:07.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="Aa3ExvIsVJ50NvHB9Iu6" type="github">
+  <diagram id="pIvAJze-LOTgAnZfaPf6" name="Page-1">
+    <mxGraphModel dx="1002" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="emIysNPt0Ya8YznNnS9K-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="emIysNPt0Ya8YznNnS9K-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215.0999999999999" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-2" value="START&lt;br&gt;submenu_D()" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-3" value="&lt;div&gt;import option_functions as options&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="255.12" y="80" width="194.88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="emIysNPt0Ya8YznNnS9K-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="100.00000000000011" as="sourcePoint" />
+            <mxPoint x="407.12" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="emIysNPt0Ya8YznNnS9K-6" target="emIysNPt0Ya8YznNnS9K-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-6" value="role_line = menu_select(&quot;DENTIST ROLES FOR LINE PLOT SUBMENU&quot;, &#39;dentist role&#39;, dentist_roles_dict)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55.85000000000001" y="340" width="317.9" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="emIysNPt0Ya8YznNnS9K-8" target="emIysNPt0Ya8YznNnS9K-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-8" value="disp_header(&quot;OPTION D&quot;)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.0945945945945946;" vertex="1" parent="1">
+          <mxGeometry x="122.50000000000004" y="240" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="emIysNPt0Ya8YznNnS9K-10" target="emIysNPt0Ya8YznNnS9K-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-10" value="options.disp_line_plot(role_line)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.049079754601226995;" vertex="1" parent="1">
+          <mxGeometry x="112.92" y="640" width="203.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-11" value="END&lt;br&gt;submenu_D()" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="169.80000000000004" y="840" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="emIysNPt0Ya8YznNnS9K-13" target="emIysNPt0Ya8YznNnS9K-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-13" value="Initialise role_line, role_bar to &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="147.3" y="140" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="emIysNPt0Ya8YznNnS9K-14" target="emIysNPt0Ya8YznNnS9K-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-14" value="role_bar = menu_select(&quot;DENTIST ROLES FOR BAR PLOT SUBMENU&quot;, &#39;dentist role&#39;, dentist_roles_dict)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55.85000000000001" y="440" width="317.9" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="emIysNPt0Ya8YznNnS9K-16" target="emIysNPt0Ya8YznNnS9K-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-16" value="Display &quot;Displaying Graphs&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="126.25" y="540" width="177.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="emIysNPt0Ya8YznNnS9K-19" target="emIysNPt0Ya8YznNnS9K-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emIysNPt0Ya8YznNnS9K-19" value="options.disp_bar_plots(role_bar)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.049079754601226995;" vertex="1" parent="1">
+          <mxGeometry x="113.12" y="740" width="203.75" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
