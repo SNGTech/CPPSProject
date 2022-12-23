@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T04:21:15.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="d6_L1yPQ0jDwbF9ZRS1q" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-23T04:24:38.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="_LHTJF_MwziQXDL0wCfp" type="github">
   <diagram id="i8aKlON5BFAKD-ZzM1Su" name="Page-1">
     <mxGraphModel dx="616" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -50,7 +50,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="215" y="1010" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="90" y="460" />
+              <mxPoint x="60" y="460" />
+              <mxPoint x="60" y="1010" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -85,8 +86,8 @@
         <mxCell id="63i7wqGlK94Z1JRqRX3E-20" value="except ValueError&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="710" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="63i7wqGlK94Z1JRqRX3E-21" value="Prompt user to input a year&lt;br&gt;and store it into year_sel" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="127.5" y="610" width="175" height="60" as="geometry" />
+        <mxCell id="63i7wqGlK94Z1JRqRX3E-21" value="Prompt user to input a year between year_range[0] and year_range[1]&lt;br&gt;and store it into year_sel" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="98.35" y="610" width="232.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="63i7wqGlK94Z1JRqRX3E-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="63i7wqGlK94Z1JRqRX3E-22" target="63i7wqGlK94Z1JRqRX3E-24">
           <mxGeometry relative="1" as="geometry" />
