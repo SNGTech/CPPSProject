@@ -23,8 +23,8 @@ def disp_num_dentists_by_sector(year: int):
     
     print(f"""Number of Dentists by Sector in {year}
           
-Private: {num_dentists_private:4}
-Public: {num_dentists_public:4}""")
+Private:{num_dentists_private:5}
+Public:{num_dentists_public:6}""")
 
 def disp_avg_and_min_num_dentists(sector: str, start_year: int, end_year: int):
     """ Display avg. no. of dentists based on sector from any period (ASK IF NEED TO BE 5-YEAR SPAN) """
@@ -63,7 +63,7 @@ def disp_highest_percent_change_yoy(sector: str):
 def disp_line_plot(dentist_role: str):
     """ # Display line graph """
     # Generate column data (y-axis)
-    col_index = [i for i, d in enumerate(data.row_header) if dentist_role in d.lower()]
+    col_index = [i for i, h in enumerate(data.row_header) if dentist_role in h.lower()]
     total_dentists_by_role_yearly = [sum([row[i] for i in col_index]) for row in data.row_data]
     
     plt.rcParams['figure.figsize'] = (11, 7)

@@ -22,15 +22,14 @@ with open("sgactivedentists_dataset.csv", "r") as f:
     row_data = csv_data[1:].astype(int).tolist()
     year_range = (row_data[0][0], row_data[-1][0])
     # Obtain sector indices for use in program (index 0 -> Private, index 1 -> Public)
-    sector_indices[0] = [i for i, d in enumerate(row_header) if "Private" in d]
-    sector_indices[1] = [i for i, d in enumerate(row_header) if "Public" in d]
+    sector_indices[0] = [i for i, h in enumerate(row_header) if "Private" in h]
+    sector_indices[1] = [i for i, h in enumerate(row_header) if "Public" in h]
     years = list(range(year_range[0], year_range[1] + 1))
     
 def get_sum_yearly_by_sector(sector: str, start_yr: int = year_range[0], end_yr: int = year_range[1]):
     """ Obtain sum of data yearly for specified period and sector """
     period_data = row_data[start_yr - year_range[0]:end_yr - year_range[0] + 1]
     if sector == "private":
-        # 
         return [sum(row[sector_indices[0][0]:sector_indices[0][-1] + 1]) for row in period_data]
     elif sector == "public":
         return [sum(row[sector_indices[1][0]:sector_indices[1][-1] + 1]) for row in period_data]

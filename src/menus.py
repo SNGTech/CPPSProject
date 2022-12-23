@@ -31,7 +31,7 @@ def disp_header(header_text: str):
 {header_text:^{sep_len}}
 {sep_header}""")
          
-def disp_menu(title_text, menu_dict: dict):
+def disp_menu(title_text: str, menu_dict: dict):
     print(f"""{title_text:^{sep_len}}
 {sep}""")
     for key, val in menu_dict.items():
@@ -52,8 +52,8 @@ def menu_select(menu_title: str, item_to_select: str, menu_dict: dict):
     return menu_dict.get(sel)[1]
 
 def submenu_A():
-    disp_header("OPTION A")
     year_sel = 0
+    disp_header("OPTION A")
     while True:
         # Validate if its a valid year
         try:
@@ -73,7 +73,7 @@ def submenu_A():
     options.disp_num_dentists_by_sector(year_sel)
 
 def submenu_B():
-    year_range_sel = []
+    year_range_sel = ""
     start_year, end_year = 0, 0
     disp_header("OPTION B")
     # Sector selection
@@ -90,7 +90,7 @@ def submenu_B():
             enter_to_continue()
             continue
         if start_year not in years or end_year not in years or start_year >= end_year:
-            print("Year range entered is invalid! Please try again")
+            print("Year range entered is out of range! Please try again")
             enter_to_continue()
             continue
         break
