@@ -17,8 +17,8 @@ main_menu_dict = {
    menus.submenu_A),
 'B': (
 """Based on selected sector and year range, 
-   Show average number of dentists in that period
-   and minimum number of dentists in that period and the year it occurred in""", 
+   Show average number of dentists in that year range
+   and minimum number of dentists in that year range and the year it occurred in""", 
    menus.submenu_B),
 'C': (
 """Based on selected sector,
@@ -58,13 +58,12 @@ while True:
     # Handle invalid options
     if sel not in main_menu_dict.keys():
         print("Option selected is invalid! Please try again")
-        menus.enter_to_continue()
+        input("Press ENTER to continue...")
         print("") # Add a newline
         continue
     # Handle valid options
     main_menu_dict.get(sel)[1]()
     # Wait for ENTER before allowing user to choose new option
-    menus.enter_to_continue()
-    print("") # Add a newline
+    input("Press ENTER to continue...")
     # Clear console for better user readability (multi-platform support code)
     clear_console()

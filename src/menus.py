@@ -21,10 +21,6 @@ dentist_roles_dict = {
     'A': ("Dental Specialists", 'dental specialists'),
     'B': ("General Dental Practitioners", 'general dental practitioners')
 }
-
-def enter_to_continue():
-    """ Wait for ENTER before allowing user to choose new option """
-    input("Press ENTER to continue...")
    
 def disp_header(header_text: str):
     print(f"""{sep_header}
@@ -45,7 +41,6 @@ def menu_select(menu_title: str, item_to_select: str, menu_dict: dict):
         # Handle invalid options
         if sel not in menu_dict.keys():
             print("\nOption selected is invalid! Please try again")
-            enter_to_continue()
             print("") # Add a newline
             continue
         break
@@ -61,12 +56,10 @@ def submenu_A():
             print("") # Add a newline
         except ValueError:
             print("\nYear selected is invalid! Please try again")
-            enter_to_continue()
             continue
         # Validate if year is in range
         if year_sel not in years:
             print("Year selected is out of range! Please try again")
-            enter_to_continue()
             continue
         break
     # Execute option A
@@ -87,11 +80,9 @@ def submenu_B():
             end_year = int(year_range_sel[1].lower().strip())
         except (ValueError, IndexError):
             print("Year range entered is invalid! Please try again")
-            enter_to_continue()
             continue
         if start_year not in years or end_year not in years or start_year >= end_year:
             print("Year range entered is out of range! Please try again")
-            enter_to_continue()
             continue
         break
     # Execute option B

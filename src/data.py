@@ -38,7 +38,8 @@ def get_sum_yearly_by_sector(sector: str, start_yr: int = year_range[0], end_yr:
         
 def calc_percent_change(original: int, new: int):
     """ Percentage change utility function """
-    return (new - original) / original * 100
+    if original > 0:
+        return (new - original) / original * 100
         
 """# Meant for debugging
 # TODO: Convert for use in Admin Mode
