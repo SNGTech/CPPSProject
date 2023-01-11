@@ -21,7 +21,7 @@ dentist_roles_dict = {
     'A': ("Dental Specialists", 'dental specialists'),
     'B': ("General Dental Practitioners", 'general dental practitioners')
 }
-   
+
 def disp_header(header_text: str):
     print(f"""{sep_header}
 {header_text:^{sep_len}}
@@ -74,15 +74,18 @@ def submenu_B():
     # Year range selection
     while True:
         try:
-            year_range_sel = input(f"Please enter a year range between {year_range[0]} to {year_range[1]}\n(Separate start and end year with a comma, e.g. 2015,2019): ").split(",")
+            year_range_sel = input(f"Please enter a year range between {year_range[0]} to {year_range[1]}\nCondition: Start year must be less than the end year\n(Separate start and end year with a comma, e.g. 2015,2019): ").split(",")
             print("") # Add a newline
             start_year = int(year_range_sel[0].lower().strip())
             end_year = int(year_range_sel[1].lower().strip())
         except (ValueError, IndexError):
             print("Year range entered is invalid! Please try again")
             continue
-        if start_year not in years or end_year not in years or start_year >= end_year:
+        if start_year not in years or end_year not in years:
             print("Year range entered is out of range! Please try again")
+            continue
+        if   start_year >= end_year:
+            print("Start year must be less than end year! Please try again")
             continue
         break
     # Execute option B

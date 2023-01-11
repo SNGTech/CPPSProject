@@ -40,12 +40,6 @@ def calc_percent_change(original: int, new: int):
     """ Percentage change utility function """
     if original > 0:
         return (new - original) / original * 100
-        
-"""# Meant for debugging
-# TODO: Convert for use in Admin Mode
-def debug():
-    print(row_header)
-    print(row_data)
-    print(year_range)"""
+    return 0
     
     

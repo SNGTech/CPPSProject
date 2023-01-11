@@ -29,8 +29,10 @@ main_menu_dict = {
    Show line plot of total active dentists for selected role vs Year 
    and bar chart of private and public active dentists for selected role vs Year""",
    menus.submenu_D),
-#'E': ("Enter admin mode (display and/or edit data)",
-#       data.debug), # MAY ADD IF GOT TIME
+'E': (
+"""Display number of active dentists in Singapore from 2008 to 2019 
+   ordered by sector and dentist role in a table""",
+   options.disp_data),
 'Q': (
 "Quit the Portal",
    options.quit_program)
